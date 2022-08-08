@@ -1,4 +1,4 @@
-# Accelerating CNN via Dynamic Pattern-based Pruning Network
+# CIKM'22 - Accelerating CNN via Dynamic Pattern-based Pruning Network
 ## Introduction
 
 ![ex_screenshot](./fig/method.png)
