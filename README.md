@@ -2,6 +2,7 @@
 An official code release of the paper [Accelerating CNN via Dynamic Pattern-based Pruning Network](https://dl.acm.org/doi/10.1145/3511808.3557225).
 
 | [Paper](https://dl.acm.org/doi/10.1145/3511808.3557225) | [Project Page](https://sites.google.com/g.skku.edu/dppnet/) |
+| --- | --- |
 
 If you use this repo, please cite our paper:
 
