@@ -4,24 +4,6 @@ An official code release of the paper [Accelerating CNN via Dynamic Pattern-base
 | [Paper](https://dl.acm.org/doi/10.1145/3511808.3557225) | [Project Page](https://sites.google.com/g.skku.edu/dppnet/) |
 | --- | --- |
 
-If you use this repo, please cite our paper:
-
-BibTex:
-```plain
-@inproceedings{lee2022accelerating,
-  title={Accelerating CNN via Dynamic Pattern-based Pruning Network},
-  author={Lee, Gwanghan and Shin, Saebyeol and Woo, Simon S},
-  booktitle={Proceedings of the 31st ACM International Conference on Information \& Knowledge Management},
-  pages={1034--1043},
-  year={2022}
-}
-```
-
-Plain text:
-<blockquote>
-Lee, Gwanghan, Saebyeol Shin, and Simon S. Woo. "Accelerating CNN via Dynamic Pattern-based Pruning Network." Proceedings of the 31st ACM International Conference on Information & Knowledge Management. 2022.
-</blockquote>
-
 ## Abstract
 
 ![ex_screenshot](./fig/method.png)
@@ -68,3 +50,21 @@ python finetuning.py -gpu=0,1,2,3 --amp --epoch=40 -bs=256 -am=dynresnet34_fine 
 - #### Ubuntu 18.04
 - #### I trained the model using 4 Gpus (Rtx3090).
 
+
+If you use this repo, please cite our paper:
+
+BibTex:
+```plain
+@inproceedings{lee2022accelerating,
+  title={Accelerating CNN via Dynamic Pattern-based Pruning Network},
+  author={Lee, Gwanghan and Shin, Saebyeol and Woo, Simon S},
+  booktitle={Proceedings of the 31st ACM International Conference on Information \& Knowledge Management},
+  pages={1034--1043},
+  year={2022}
+}
+```
+
+Plain text:
+<blockquote>
+Lee, Gwanghan, Saebyeol Shin, and Simon S. Woo. "Accelerating CNN via Dynamic Pattern-based Pruning Network." Proceedings of the 31st ACM International Conference on Information & Knowledge Management. 2022.
+</blockquote>
