@@ -50,7 +50,7 @@ python finetuning.py -gpu=0,1,2,3 --amp --epoch=40 -bs=256 -am=dynresnet34_fine 
 - #### Ubuntu 18.04
 - #### I trained the model using 4 Gpus (Rtx3090).
 
-
+---
 If you use this repo, please cite our paper:
 
 BibTex:
